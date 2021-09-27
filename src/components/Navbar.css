@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Navbar */
+
+nav {
+    padding: 15px 120px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.nav-item {
+    margin: 20px;
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: #404242 !important;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 5px !important;
+    transition: .3s  !important;
+}
+
+.nav-item > a:hover {
+    color: #58A9A5 !important;
+    border-bottom: 4px solid #FEC62D;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 37px;
+    height: 45px;
+}
+
+b {
+    font-size: 35px;
+    color: #58A9A5;
+    margin-left: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif ;
+}
+
+.btn {
+    padding: 10px 38px;
+    border-radius: 14px;
+    background: #58A9A5 !important;
+    outline: none;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1024px) {
+    nav {
+        padding: 15px 20px;
+    }
+    
+    .nav-item > a {
+        text-decoration: none;
+        color: #404242 !important;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        width: 5px !important;
+        transition: .3s  !important;
+    }
+
+    .navbar-nav {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+       outline: none !important;
+       text-decoration: none !important;
+    }
+
+    .btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        padding: 15px 20px;
+    }  
+
+    .navbar-nav {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+       outline: none !important;
+       text-decoration: none !important;
+    }
+
+    .btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    nav {
+        padding: 15px 30px;
+    }  
+
+    .navbar-nav {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+       outline: none !important;
+       text-decoration: none !important;
+    }
+
+    .btn {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 330px) {
+    html {
+        overflow-x: hidden;
+    
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        padding: 15px 20px;
+    }
+
+    .navbar-nav {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+       outline: none !important;
+       text-decoration: none !important;
+    }
+
+    .btn {
+        display: none;
+    }
+ }
